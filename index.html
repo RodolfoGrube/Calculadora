@@ -11,13 +11,23 @@
         <h1>Calculadora do Dolfo</h1>
     </header>
     <div>
-        <h2>Resultado:</h2> 
+        <h2 id="resultado">Resultado:</h2> 
     </div>
-    <div>
-        <button><h1>X</h1></button><br/>
-        <button><h1>/</h1></button><br/>
-        <button><h1>-</h1></button><br/>
-        <button><h1>+</h1></button><br/>
+    <div id="operadores">
+        <label for="operador1"><input id="numer1" type="number" name="operador1"/></label>
+        <strong><---></strong>
+        <label for="operador2"><input id="numer2" type="number" name="operador2"/></label>
+    </div>   
+    <div class="botoes">
+        <button class="botao" onclick="multi()"><h1>X</h1></button><br/>
+        <button class="botao" onclick="divi()"><h1>/</h1></button><br/>
+        <button class="botao" onclick="sub()"><h1>-</h1></button><br/>
+        <button class="botao" onclick="soma()"><h1>+</h1></button><br/>
     </div>
+
+    <script src="calculo.js">
+    
+    </script>
+
 </body>
 </html>
