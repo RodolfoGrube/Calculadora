@@ -7,7 +7,7 @@ function multi(){
     document.getElementById ("resultado") . innerHTML = "Resultado: " + resultado;
 
 }
-function div(){
+function divi(){
     var n1 = document.getElementById ("numer1").value;
     var n2 = document.getElementById ("nuner2").value;
     
