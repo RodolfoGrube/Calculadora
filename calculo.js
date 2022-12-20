@@ -4,7 +4,7 @@ function multi(){
 
     var resultado = n1 * n2;
 
-    document.getElementById ("resultado") . innerHTML = "Resultado: " + resultado;
+    document.getElementById ("resultado") . innerHTML = "Resultado<br/>" + resultado;
 
 }
 function divi(){
@@ -13,7 +13,7 @@ function divi(){
     
     var resultado = n1 / n2;
     
-    document.getElementById ("resultado"). innerHTML = "Resultado: " + resultado;
+    document.getElementById ("resultado"). innerHTML = "Resultado<br/>" + resultado;
 
 }
 function sub(){
@@ -22,7 +22,7 @@ function sub(){
 
     var resultado = n1 - n2;
 
-    document.getElementById ("resultado"). innerHTML = "Resultado: " + resultado;
+    document.getElementById ("resultado"). innerHTML = "Resultado<br/>" + resultado;
 
 }
 function soma(){
@@ -31,6 +31,6 @@ function soma(){
 
     var resultado = n1 + n2;
 
-    document.getElementById ("resultado") . innerHTML = "Resultado: " + resultado;
+    document.getElementById ("resultado") . innerHTML = "Resultado<br/>" + resultado;
 
 }

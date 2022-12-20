@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="desing/estilo.css" rel="stylesheet">
     <title>Calculadora</title>
 </head>
 <body>
-    <header>
+    <header class="cabeca">
         <h1>Calculadora do Dolfo</h1>
     </header>
-    <div>
-        <h2 id="resultado">Resultado:</h2> 
+    <div class="catado">
+        <h2 id="resultado">Resultado</h2> 
     </div>
     <div id="operadores">
         <label for="operador1"><input id="numer1" type="number" name="operador1"/></label>
         <strong><---></strong>
         <label for="operador2"><input id="numer2" type="number" name="operador2"/></label>
     </div>   
-    <div class="botoes">
-        <button class="botao" onclick="multi()"><h1>X</h1></button><br/>
-        <button class="botao" onclick="divi()"><h1>/</h1></button><br/>
-        <button class="botao" onclick="sub()"><h1>-</h1></button><br/>
-        <button class="botao" onclick="soma()"><h1>+</h1></button><br/>
+    <div class="caixa">
+        <button class="botao" onclick="multi()"><h1>X</h1></button>
+        <button class="botao" onclick="divi()"><h1>/</h1></button>
+        <button class="botao" onclick="sub()"><h1>-</h1></button>
+        <button class="botao" onclick="soma()"><h1>+</h1></button>
     </div>
 
     <script src="calculo.js">

@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+    padding: 10px auto;
+    margin: 0 auto;
+    font-family: Arial;
+}
+.cabeca {
+    border: 1px solid black;
+    width: 335px;
+    background-color: rgb(49, 235, 59);
+
+}
+.botao {
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: solid 1px black;
+    margin: 5px auto;
+}
+.caixa {
+    width: 335px;
+    height: 63px;
+    background: rgb(49, 235, 59);
+    border: 1px black solid;
+    border-top: 0px;
+}
+#operadores {
+    background-color: rgb(49, 235, 59);
+    width: 335px;
+    border: 1px black solid;
+    border-bottom: 0px;
+}
+#operadores input{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 5px auto;
+    padding: 5px;
+}
+.catado {
+    width: 335px;
+    height: 70px;
+    background-color: rgb(197, 8, 8);
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+#resultado {
+    font-family: comic;
+    font-size: 30px ;
+}
